@@ -38,7 +38,7 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 // Loop over the names array and say either 'Hello' or "Good Bye"
 // using either the helloSpeaker's or byeSpeaker's 'speak' method.
 // See Lecture 50, part 1
-for (var x=0; x<len(names);x++) {
+for (var x=0; x<10;x++) {
 
   if (names[x[0]]==='J' or names[x[0]]==='j') {
     console.log("GoodBye " + x);
