@@ -40,7 +40,7 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 // See Lecture 50, part 1
 for (var x=0; x<10;x++) {
 
-  if (names[x[0]]==='J', names[x[0]]==='j') {
+  if (names[x[0]]==='J' || names[x[0]]==='j') {
     console.log("GoodBye " + x);
   } else {
     console.log("Hello " + x);
